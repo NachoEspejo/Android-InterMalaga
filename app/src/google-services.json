@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "214078806093",
+    "firebase_url": "https://intermalaga-cadete.firebaseio.com",
+    "project_id": "intermalaga-cadete",
+    "storage_bucket": "intermalaga-cadete.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214078806093:android:87fdd8aafbfa92ff",
+        "android_client_info": {
+          "package_name": "com.intermalaga.nacho.intermalaga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "214078806093-k1je6s6j247cpg3u1jbtsjepuadf6ju0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0zcOCOGN0OYDEeU6gStFojYtmTlbVZus"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

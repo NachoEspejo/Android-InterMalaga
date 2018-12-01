@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:clickable="true"
+android:focusable="true"
+android:foreground="?android:attr/selectableItemBackground"
+
+xmlns:card_view="http://schemas.android.com/apk/res-auto"
+card_view:cardElevation="8dp"
+card_view:cardCornerRadius="2dp"
+card_view:cardUseCompatPadding="true">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    >
+
+    <ImageView
+        android:id="@+id/playerPhoto"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/soccer"
+        />
+
+    <TextView
+        android:id="@+id/playerName"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_toRightOf="@+id/playerPhoto"
+        android:layout_alignParentTop="true"
+        android:maxLines="2"
+        android:text="Nombre del jugador"
+        android:textSize="12dp"
+        />
+
+    <TextView
+        android:id="@+id/playerPosition"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_toRightOf="@+id/playerPhoto"
+        android:layout_below="@+id/playerName"
+        android:maxLines="1"
+        android:text="Posicion del jugador"
+        android:textSize="12dp"
+        />
+
+    <TextView
+        android:id="@+id/playerCategory"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_toRightOf="@+id/playerPhoto"
+        android:layout_below="@+id/playerPosition"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"
+        android:text="Categoría del jugador"
+        android:textSize="12dp"
+        />
+
+</RelativeLayout>
+
+
+
+
+
+</android.support.v7.widget.CardView>

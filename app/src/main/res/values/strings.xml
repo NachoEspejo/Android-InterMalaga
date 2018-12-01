@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">InterMalaga</string>
+
+    <string name="login_label_email">Correo electrónico</string>
+    <string name="login_label_password_email">Contraseña</string>
+    <string name="login_label_login_button">ENTRAR</string>
+    <string name="login_label_eres_jugador">¿Eres jugador?</string>
+
+
+    <string name="login_label_error">Email y/o contraseña incorrecta</string>
+
+    <string name="position_prompt">Elige una posición</string>
+    <string-array name="position_array">
+        <item>DL</item>
+        <item>LI</item>
+        <item>LD</item>
+        <item>CENTRO</item>
+        <item>GK</item>
+    </string-array>
+
+
+    <string name="category_prompt">Elige una categoría</string>
+    <string-array name="category_array">
+        <item>1º CAD</item>
+        <item>2º CAD</item>
+        <item>1º JUV</item>
+        <item>2º JUV</item>
+    </string-array>
+
+</resources>
